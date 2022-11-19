@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>과제 3-2</title>
+
+   <script>
+    function new_row(num) {
+        var arr = num.toString().split('').map(Number);
+        console.log(arr)
+        return arr;
+        }
+  </script>
+</head>
+<body>
+
+<script>
+input_num = Number(prompt("Enter the number of rows",""));
+
+numbers = new Array();
+temp = new Array();
+
+for (var i=0; i<input_num; i++) {
+    numbers[i] = 1
+    temp[i] = 1
+    if (i < 2) {
+    } else {
+        for (var j=1; j<numbers.length-1; j++){
+            temp[j] = numbers[j-1] + numbers[j]
+        }
+
+            }
+    for (var j=0; j<numbers.length; j++){
+        numbers[j] = temp[j]
+        document.write(numbers[j],' ')
+    }
+    document.write('<br>')
+}
+
+
+</script>
+
+</body>
+</html>
