@@ -6,10 +6,12 @@
 
     <style>
         #essential{color:red; font-size: 10pt;}
-        .boxx{background-color:lightblue;
+        .boxx{
+        background-color:lightblue;
         padding-left:10px;
         width:800px;
-        font-weight: bold;}
+        font-weight: bold;
+        margin-top: 10px;}
         .putbox {
         display: inline-block;
         margin: 8px;
@@ -24,46 +26,47 @@
 <body>
 
 <h2>취업 정보 계정 만들기</h2>
-<p id="essential">* 필수 입력 항목</p>
-<p class="boxx">기본 정보</p>
+<div id="essential">* 필수 입력 항목</div>
 
 <form>
-    <span class="putbox"> 이 름<span class='star'>*</span> </span><input type="text" size="8"><br>
-    <span class="putbox"> 이메일<span class='star'>* </span></span><input type="email" size="15" placeholder="id@domain_name"><br>
-    <span class="putbox"> 암호<span class='star'>* </span></span><input type="password" size="12"><br>
-    <span class="putbox"> 암호 확인<span class='star'>* </span></span><input type="password" size="12"><br>
-    <span class="putbox">모바일 폰<span class='star'>* </span></span><input type="tel" size="13" placeholder="010-0000-0000"><br>
-    <span class="putbox">개인 홈페이지<span class='star'>* </span></span><input type="url" size="30" placeholder="http://"><br>
-    <span class="putbox">주소<span class='star'>* </span></span><input type="text" size="30"><br>
+
+<div class="boxx">기본 정보</div>
+
+    <div><span class="putbox"> 이 름<span class='star'>*</span> </span><input type="text" size="8"></div>
+    <div><span class="putbox"> 이메일<span class='star'>* </span></span><input type="email" size="15" placeholder="id@domain_name"><br></div>
+    <div><span class="putbox"> 암호<span class='star'>* </span></span><input type="password" size="12"><br></div>
+    <div><span class="putbox"> 암호 확인<span class='star'>* </span></span><input type="password" size="12"><br></div>
+    <div><span class="putbox">모바일 폰<span class='star'>* </span></span><input type="tel" size="13" placeholder="010-0000-0000"><br></div>
+    <div><span class="putbox">개인 홈페이지<span class='star'>* </span></span><input type="url" size="30" placeholder="http://"><br></div>
+    <div><span class="putbox">주소<span class='star'>* </span></span><input type="text" size="30"><br></div>
 
 
-    <p class="boxx">학력</p>
+<div class="boxx">학력</div>
 
-    <span class="putbox">학교 명<span class='star'>* </span></span><input type="text" size="12"><br>
-    <span class="putbox">전공<span class='star'>* </span></span><input type="text" size="12"><br>
-    <span class="putbox">졸업 여부<span class='star'>* </span></span><select name="graduation">
+    <div><span class="putbox">학교 명<span class='star'>* </span></span><input type="text" size="12"></div>
+    <div><span class="putbox">전공<span class='star'>* </span></span><input type="text" size="12"></div>
+    <div><span class="putbox">졸업 여부<span class='star'>* </span></span><select name="graduation">
                 <option value="---선택---">---선택---</option>
                 <option value="졸업예정">졸업예정</option>
                 <option value="졸업">졸업</option>
-                </select><br>
-    <span class="putbox">졸업(예정)일 </span><input type="date"><br>
+                </select></div>
+    <div><span class="putbox">졸업(예정)일 </span><input type="date"></div> 
 
 
-    <p class="boxx">업무 경력</p>
+<div class="boxx">업무 경력</div>
 
-    <span class="putbox">근무업체명 </span><input type="text" size="20"><br>
-    <span class="putbox">직 위 </span><input type="text" size="10"><br>
-    <span class="putbox">담당 업무 </span><textarea rows="10" cols="80">이전 업체에서 담당한 업무를 기술하시오.</textarea><br>
-    <span class="putbox">근무년수 </span><input type="number" min="0" max="10" step="0.5">년<br>
+    <div><span class="putbox">근무업체명 </span><input type="text" size="20"><br></div>
+    <div><span class="putbox">직 위 </span><input type="text" size="10"><br></div>
+    <div><span class="putbox">담당 업무 </span><textarea rows="10" cols="80">이전 업체에서 담당한 업무를 기술하시오.</textarea><br></div>
+    <div><span class="putbox">근무년수 </span><input type="number" min="0" max="10" step="0.5">년<br></div>
 
-    <p class="boxx">자기소개서</p>
+<div class="boxx">자기소개서</div>
 
     <span class="putbox">첨부 파일 </span><input type="file">
 
     <div id="bottonbox">
     <button type="submit" style="">제 출</button>
     <button type="reset">재작성</button>
-    </div>
     </div>
 
 
