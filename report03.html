@@ -22,20 +22,21 @@ for (var i=0;i<p.length;i+=1) {
     sum += p[i] * (2 ** i);
 }
 
-if (sum >10){
+if (sum < 10){
     document.write(sum);
-} else if (sum=11){
-    document.write('A')
-} else if (sum=12){
-    document.write('B')
-} else if (sum=13){
-    document.write('C')
-} else if (sum=14){
-    document.write('D')
-} else if (sum=15) {
-    document.write('F')
+} else if (sum==10){
+    document.write('A');
+} else if (sum==11){
+    document.write('B');
+} else if (sum==12){
+    document.write('C');
+} else if (sum==13){
+    document.write('D');
+} else if (sum==14) {
+    document.write('E');
+} else if (sum==15) {
+    document.write('F');
 }
-
 </script>
 </body>
 </html>
