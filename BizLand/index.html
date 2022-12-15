@@ -16,7 +16,6 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: BizLand - v3.9.1
@@ -34,14 +33,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-
-  <style> @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
-  h2,h3,h5,h4,a,p {font-family: 'Gowun Batang', serif;}
-  #ss {font-family: 'Gowun Batang', serif;}
-  </style>
-
 </head>
-
 
 <body>
 
@@ -53,7 +45,9 @@
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://www.instagram.com/chowa_ll/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
@@ -63,7 +57,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">CHOWALL<span>.</span></a></h1>
+      <h1 class="logo"><a href="index.html">BizLand<span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
@@ -74,6 +68,23 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -85,28 +96,16 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h2 style="font-size: 40px;">벽을 뛰어넘다 : <span><strong>초월</strong></span></h2>
-      <h2>모두의 자유로운 여행을 위한 통로가 되어 세상을 바꿉니다.</h2>
+      <h1>Welcome to <span>BizLand</span></h1>
+      <h2>We are team of talented designers making websites with Bootstrap</h2>
       <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">초월 알아보기</a>
-        <a href="https://www.youtube.com/watch?v=7qvfeoldvdA" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
       </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
-
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <h3>배리어프리 여행 플랫폼 <span>초월</span></h3>
-          <p id="ss">한국장애인개발원에 따르면 2019년 기준 장애인 여행 경험률은 '25%'에 불과합니다.<br>
-          그 원인은 무엇일까요?</p>
-        </div>
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
@@ -116,77 +115,225 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">부족한 정보</a></h4>
-              <p class="description">휠체어 사용자는 장애물의 유무 등의 세밀한 정보를 필요로 합니다.<br>하지만 인터넷을 서치해보아도 이같은 정보는 잘 나오지 않습니다.</p>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">예상치 못한 장애물</a></h4>
-              <p class="description">배리어프리 여행지로 소개되어 찾아간 여행지. 하지만 실제로는 입장조차 힘든 경우가 대부분입니다.</p>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">전형적인 기존 배리어프리 여행지</a></h4>
-              <p class="description">공공기관에서 소개하고 있는 여행지의 경우, 다소 전형적인 관광지 등이 대부분으로 최신 관광 트렌드와는 맞지 않습니다.</p>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">배리어프리 인식 부족</a></h4>
-              <p class="description">여전히 비장애인 중심의 사회에서, 휠체어 사용자가 원하는 정보를 찾기란 쉽지 않은 일입니다.</p>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
 
         </div>
 
       </div>
-
-      <br><br><br>
-       <div class="section-title">
-         <p>위와 같은 문제 해결을 위해,</p>
-         <h3>배리어프리 여행 플랫폼 <span>초월</span>을 제안합니다.</h3>
-         <p>초월은 정보의 한계를 '초월'하고<br>여행을 통해 일상을 '초월'하며<br>사람들의 인식을 '초월'하는 통로가 됩니다.</p>
-       </div>
     </section><!-- End Featured Services Section -->
-  </section>
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More <span>About Us</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/초월앱디자인목업1.png" class="img-fluid" alt="">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>초월을 통해 배리어프리 정보 부족의 문제를 해결하고 <br> 자유로운 여행을 위해 편리함과 즐거움을 제공하겠습니다. </h3>
-
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
             <ul>
               <li>
                 <i class="bx bx-store-alt"></i>
                 <div>
-                  <h5>휠체어 동선을 고려한 여행지 및 코스 추천</h5>
-                  <p>여행자들이 헛걸음하지 않도록<br>자세한 배리어프리 정보와 코스를 사진과 글, 픽토그램으로 설명합니다.</p>
+                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
                 </div>
               </li>
               <li>
                 <i class="bx bx-images"></i>
                 <div>
-                  <h5>배리어프리 장소 제보</h5>
-                  <p>시민들로부터 숨겨진 배리어프리 장소를 제보받습니다.<br>전형적인 관광지에서, 새로운 장소들로 여행지의 지평을 확장시켜갑니다.</p>
+                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
                 </div>
               </li>
             </ul>
             <p>
-              배리어프리 여행 정보를 한 곳에 모아 자신이 원하는 정보를 탐색하고 <br>여행코스 제작 및 예약까지 한 번에 가능하도록 돕는 원스탑 어플리케이션 ’초월‘.<br>
-              유일한 배리어프리 여행 플랫폼으로써, AI기술과 사회문제를 융합하여 이동약자의 저조한 <br>국내 여행 경험률 문제를 해결하려는 사회적 가치를 담고 있습니다다.            </p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
         </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -194,32 +341,56 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <h3><span>초월</span>의 서비스를 경험해보세요.</h3>
-          <p>현재 어플리케이션 개발 진행 중인 초월은, 가이드북과 장소 수집 등을 통해<br>유사한 기능을 구현하며 사전 경험을 제공하고 있습니다.</p>
+          <h3>Check our <span>Services</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
 
         <div class="row">
-          <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="https://www.chowall.com/_files/ugd/adaebd_a78a093ac3a14763be381d67b61dd656.pdf">춘천 배리어프리 가이드북</a></h4>
-              <p>배리어프리 여행 가이드북 춘천 편 보러가기</p>
+              <h4><a href="">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
 
-          <div class="col-md-4 mb-5" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_58QNtrC7il0hJ13Q5gQ88ewuAAn9TfO11k5jVVyDYGmvuw/viewform">가이드북 피드백 설문조사</a></h4>
-              <p>여러분의 피드백은 많은 도움이 됩니다.</p>
+              <h4><a href="">Sed ut perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
 
-          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="https://forms.gle/DBwpuyRStwWbMUrV7">배리어프리 여행지 제보</a></h4>
-              <p>여러분 근처의 배리어프리 여행지를 제보해주세요.</p>
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Dele cardo</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
 
@@ -237,12 +408,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Wheelchair Dancer</h3>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  여행 다니는 것을 좋아해요. 하지만 정보의 부족함 때문에 여행을 마음 먹는 것조차 어려웠어요. <br> 그래서 평소에 여행을 다닐 때는 주로 숙소에 있거나 늘 가던 곳을 방문하곤 했어요. <br> 하지만 초월과 같은 어플리케이션이 있다면, 새로운 여행지를 발견하는 재미가 있을 것 같아요.
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -250,12 +421,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Wheelchair User</h3>
-                <h4>휠체어 사용자 인터뷰</h4>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  흴체어, 유아차 사용이 특이한 것이 아닌, 일반 사람과 별다를 것 없다는 인식 양성에 도움이 되길 바랍니다!
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -264,11 +435,24 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Wheelchair User</h3>
-                <h4>가이드북 피드백</h4>
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  휠체어로 다니다보면 도로의 포장 상태가 큰 변수입니다. 실제로 양평 두물머리에 갔다가 주차장 바닥이 자갈로 되어 있어 휠체어를 펴지도 못하고 돌아온 적이 있습니다. 주차장이나 관광 스팟으로의 접근로, 산책로 등의 도로 포장 상태 정보도 있으면 큰 도움이 될 것 같습니다.
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -277,11 +461,12 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Wheelchair user companion</h3>
-                <h4>가이드북 피드백</h4>
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  최근에 저희 엄마도 발목을 다치셔서 휠체어를 타고 다니셔요. <br> 이처럼 장애인분들 이외에 저희 엄마 같은 환자분들 또한 도움을 많이 받으실 것 같습니다.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
@@ -292,49 +477,6 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-pin-map-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Barrierfree place</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-file-earmark-pdf-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-trophy-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Award</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-person-badge-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -877,7 +1019,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
